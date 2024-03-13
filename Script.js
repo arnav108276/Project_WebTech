@@ -18,7 +18,7 @@
             // Optionally, you can save the users array to local storage for persistence
             window.location.href = "index.html";
             alert("User signed up successfully!");
-            window.location.href = "index.html";
+            window.location.href = "index.html#shop-items";
         }
 
         // Function to handle login
