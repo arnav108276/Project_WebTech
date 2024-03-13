@@ -3,7 +3,7 @@
 * { 
 	box-sizing: border-box;
 }
-img{
+img:hover{
 	transform:scale(1.2);
 }
 html, body {
