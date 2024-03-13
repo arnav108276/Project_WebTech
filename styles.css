@@ -50,6 +50,7 @@ header {
 	justify-content: center;
 	flex-wrap: wrap;
 	height: 100%;
+	text-align:center;
 }
 
 .header {
