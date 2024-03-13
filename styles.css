@@ -128,7 +128,7 @@ a.left-nav-button:visited {
 
 .hero {
 	position: relative;
-	height: 50vh;
+	height:320px;
 	width: 100%;
 	display: flex;
 	align-items: center;
