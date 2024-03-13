@@ -272,7 +272,9 @@ a.left-nav-button:visited {
 	width: 400px;
 	margin: 0 5% 3% 5%;
 }
-
+.item:hover{
+	transform:scale(1.2);
+}
 .item img {
 	width: 400px;
 	height: 400px;
@@ -280,9 +282,9 @@ a.left-nav-button:visited {
 	border: solid 2px #000000;
 	
 }
-.item img:hover{
+/* .item img:hover{
 	transform:scale(1.2);
-}
+} */
 .price {
 	font-weight: 600;
 }
