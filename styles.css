@@ -412,12 +412,14 @@ input:hover{
 #sign,#log{
     background-color:honeydew;
     padding:10px;
-    width:80px;
+    width:20%;
     display:grid;
     background-color:midnightblue;
     color: aliceblue;
+	color:#005449;
 
 }
 #sign:hover,#log:hover{
     background-color: #3d9589;
+width:22%;
 }
