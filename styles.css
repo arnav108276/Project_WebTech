@@ -63,6 +63,7 @@ header {
 .logo {
 	width: 15%;
 	justify-content: center;
+	align:center;
 }
 
 .navbar {
