@@ -76,8 +76,8 @@ header {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border: solid 2px #000000;
-	position:sticky;
-	top:0.1cm;
+	position: sticky;
+	top:0.2cm;
 }
 
 a {
