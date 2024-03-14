@@ -52,6 +52,7 @@ header {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border: solid 2px #000000;
+	z-index: 1000;
 }
 a {
 	text-decoration: none;
