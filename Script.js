@@ -1,4 +1,5 @@
-        var users = [];
+// Arnav Goel 500108276
+var users = [];
         function signup() {
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
