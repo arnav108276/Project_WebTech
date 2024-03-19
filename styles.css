@@ -47,7 +47,7 @@ header {
 	margin-right:auto;
 }
 .navbar {
-	position: sticky;
+	position:fixed;
 	top:0.2cm;
 	width: 100%;
 	display: flex;
