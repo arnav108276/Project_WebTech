@@ -17,12 +17,12 @@ var users = [];
             var password = document.getElementById("password").value;
             var len=users.length;
             for (var i = 0; i < len; i++) {
-                if (users[i].email == email && users[i].password == password) {
-                    window.location.href = "index.html #shop-items";
-                    return;
+                if (users[i].email != email && users[i].password != password) {
+                     window.alert("Invalid email or password. Please try again.");
+                    // return;
                 }
                 else{
-                  window.alert("Invalid email or password. Please try again.");
+                   window.location.href = "index.html #shop-items";
                 }
             }
            
