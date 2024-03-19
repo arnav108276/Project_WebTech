@@ -15,15 +15,15 @@ var users = [];
         function login() {
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
-         var len=users.length;
+            var len=users.length;
             for (var i = 0; i < len; i++) {
                 if (users[i].email === email && users[i].password === password) {
                     // Redirect to index.html with anchor to specific element
-                    window.location.href = "home.html";
+                    window.location.href = "index.html#shop-items";
                     return;
                 }
                 else{
-                  alert("Invalid email or password. Please try again.");
+                  window.alert("Invalid email or password. Please try again.");
                 }
             }
            
