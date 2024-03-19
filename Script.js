@@ -17,9 +17,8 @@ var users = [];
             var password = document.getElementById("password").value;
             var len=users.length;
             for (var i = 0; i < len; i++) {
-                if (users[i].email === email && users[i].password === password) {
-                    // Redirect to index.html with anchor to specific element
-                    window.location.href = "index.html#shop-items";
+                if (users[i].email == email && users[i].password == password) {
+                    window.location.href = "index.html #shop-items";
                     return;
                 }
                 else{
