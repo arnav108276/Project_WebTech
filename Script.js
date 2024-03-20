@@ -8,6 +8,7 @@ var users = [];
                 password: password
             };
             users.push(user);
+            window.location.href = "index.html";
             alert("User signed up successfully!");
             window.location.href = "index.html";
         }
