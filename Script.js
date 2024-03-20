@@ -9,7 +9,7 @@ var users = [];
             };
             users.push(user);
             alert("User signed up successfully!");
-            window.location.href = "index.html#shop-items";
+            window.location.href = "index.html";
         }
         function login() {
             var email = document.getElementById("email").value;
