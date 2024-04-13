@@ -224,7 +224,6 @@ a.right-nav-button:hover,a.right-nav-button:active,a.left-nav-button:visited {
 	height: 400px;
 	border-radius: 20px;
 	border: solid 2px #000000;
-	
 }
 .price {
 	font-weight: 600;
@@ -302,6 +301,6 @@ input:hover{
 }
 #sign:hover,#log:hover{
     background-color: #3d9589;
-    width:30%;
+    width:32%;
     
 }
