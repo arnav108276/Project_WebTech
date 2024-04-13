@@ -23,12 +23,9 @@ var users = [];
                     break;
                 }
             }
-            
             if (isLoggedIn) {
                 window.location.href = "index.html #shop-items";
             } else {
                 window.alert("Invalid email or password. Please try again.");
-            }
-            
-           
+            }    
         }
